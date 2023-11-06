@@ -1,0 +1,41 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.container{
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 14%;
+}
+
+.texto{
+  font-size: 30px;
+  color: black;
+}
+
+.custom-border {
+  border: 1px solid #000; 
+  border-radius: 20px;
+}
+
+.btn-disabled {
+  background-color: gray; 
+  color: white; 
+  pointer-events: none; 
+  width: 50%;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.btn-enabled {
+  background-color: rgb(48, 99, 240);
+  color: white; 
+  width: 50%;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.btn-enabled:hover {
+  background-color: rgb(48, 99, 240);
+}
+
